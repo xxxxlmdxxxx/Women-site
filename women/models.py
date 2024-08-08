@@ -3,7 +3,7 @@ from django.urls import reverse
 from django.template.defaultfilters import slugify
 from django.core.validators import MinLengthValidator, MaxLengthValidator
 from django.contrib.auth import get_user_model
-from django_redis import get_redis_connectioncd 
+from django_redis import get_redis_connection
 
 
 class PublishedManager(models.Manager):
